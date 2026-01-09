@@ -1,0 +1,133 @@
+/* Matrix Container */
+.matrix-container {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1000px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin: 50px auto;
+  position: relative;
+}
+
+/* Quadrants */
+.quadrant {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 20px;
+  background: #f6b3b3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Quadrant Titles */
+.quadrant-title {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.q1 {
+  background: #f4f0ff;
+}
+.q1 .quadrant-title {
+  background: #7f5af0;
+}
+
+.q2 {
+  background: #ebfaf5;
+}
+.q2 .quadrant-title {
+  background: #2cb67d;
+}
+
+.q3 {
+  background: #fff4e6;
+}
+.q3 .quadrant-title {
+  background: #ff8906;
+}
+
+.q4 {
+  background: #edf4ff;
+}
+.q4 .quadrant-title {
+  background: #3a86ff;
+}
+/* Input Box */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-box {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+}
+
+.add-btn {
+  background: #ff3366;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Stakeholders List */
+.stakeholders {
+  width: 90%;
+  height: 180px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Stakeholder Item */
+.stakeholder-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 6px 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #ff4d4d;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: transform 0.2s ease;
+}
+
+.remove-btn:hover {
+  transform: scale(1.2);
+}

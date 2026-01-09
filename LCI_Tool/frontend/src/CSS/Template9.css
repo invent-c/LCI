@@ -1,0 +1,57 @@
+.template9-container {
+  background: #f9f9fc;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 85%;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.template9-column {
+  flex: 1;
+  min-width: 280px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.template9-section {
+  background: #f0f4ff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.template9-section h3 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 5px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.template9-section h4 {
+  color: #555;
+  font-weight: 500;
+  margin: 0;
+}
+
+.MuiTextField-root {
+  background: white;
+}
